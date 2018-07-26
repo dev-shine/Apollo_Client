@@ -1,0 +1,56 @@
+github_repo: apollographql/apollo-client
+title: Apollo Client
+propertytitle: Using GraphQL with Apollo Client
+subtitle: React Guide
+description: A guide to using the Apollo GraphQL Client with React.
+versions:
+  - '1'
+
+content_root: docs/source
+public_dir: public/docs/react
+
+url: https://www.apollographql.com/docs/react
+root: /docs/react/
+
+typescript_api_box:
+  data_file: docs.json
+
+# This setting also defines the page order used to generate the Previous/Next links at the bottom of each page
+sidebar_categories:
+  # Basics
+  null:
+    - index
+    - why-apollo
+    - quick-start
+    - basics/integrations
+    - 2.0-migration
+  Basics:
+    - basics/setup
+    - basics/queries
+    - basics/mutations
+    - basics/network-layer
+    - basics/caching
+  Features:
+    - features/error-handling
+    - features/caching
+    - features/optimistic-ui
+    - features/cache-updates
+    - features/fragments
+    - features/developer-tooling
+    - features/subscriptions
+    - features/react-native
+    - features/static-typing
+  Recipes:
+    - recipes/simple-example
+    - recipes/query-splitting
+    - recipes/pagination
+    - recipes/authentication
+    - recipes/prefetching
+    - recipes/server-side-rendering
+    - recipes/fragment-matching
+    - recipes/babel
+    - recipes/webpack
+    - recipes/meteor
+    - recipes/recompose
+  Reference:
+    - reference/index
